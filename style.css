@@ -43,8 +43,9 @@ a:visited {
     outline: none;
 }
 
-div.recipes {
+div.recipes h1 {
     text-align: center;
+    display:block;
 }
 
 .recipes img {
@@ -66,4 +67,34 @@ p, ul, ol {
     text-justify: distribute;
     font-size:18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+
+div.ingredient-step-container {
+    display: flex;
+    width:fit-content;
+    gap:12px;
+}
+
+.ingredients, .steps {
+    flex:1;
+    padding:3%;
+    background-color:#f7ebff;
+    border: 4px solid #ffe8f7;
+    border-radius:10px;
+    gap:inherit;
+    color: black;
+}
+
+.tips {
+    background-color: #ffede1;
+    border: 4px solid #ffd695;
+    border-radius:10px;
+    margin-top:1%;
+    padding:3%;
+    color:black;
 }
